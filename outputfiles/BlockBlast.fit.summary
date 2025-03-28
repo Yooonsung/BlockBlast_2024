@@ -1,0 +1,16 @@
+Fitter Status : Successful - Fri Dec 20 03:42:16 2024
+Quartus Prime Version : 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+Revision Name : BlockBlast
+Top-level Entity Name : BlockBlast
+Family : Cyclone IV E
+Device : EP4CE115F29C8
+Timing Models : Final
+Total logic elements : 19,687 / 114,480 ( 17 % )
+    Total combinational functions : 19,611 / 114,480 ( 17 % )
+    Dedicated logic registers : 754 / 114,480 ( < 1 % )
+Total registers : 754
+Total pins : 34 / 529 ( 6 % )
+Total virtual pins : 0
+Total memory bits : 143,360 / 3,981,312 ( 4 % )
+Embedded Multiplier 9-bit elements : 0 / 532 ( 0 % )
+Total PLLs : 1 / 4 ( 25 % )

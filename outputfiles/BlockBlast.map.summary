@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Fri Dec 20 03:39:34 2024
+Quartus Prime Version : 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+Revision Name : BlockBlast
+Top-level Entity Name : BlockBlast
+Family : Cyclone IV E
+Total logic elements : 19,656
+    Total combinational functions : 19,611
+    Dedicated logic registers : 754
+Total registers : 754
+Total pins : 34
+Total virtual pins : 0
+Total memory bits : 143,360
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 1

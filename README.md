@@ -34,4 +34,8 @@ Block lines are cleared when a row or column is fully filled, which increases th
 | MIF (Memory Initialization Files)   | 숫자 표시 및 블록 표현에 사용되는 `.mif` 파일                         |
 | Row/Column Full Detection           | 메모리 배열로 줄이 채워졌는지 감지 후 자동 제거 처리                   |
 
+
+📘 See full architecture documentation: [architecture.md](doc/architecture.md)
+
+
 ---

@@ -1,0 +1,38 @@
+# Verilog simulation output
+*.vcd
+*.out
+*.log
+
+# Backup files
+*.bak
+*~
+
+# Quartus/Intel project files
+*.qpf
+*.qsf
+*.qws
+*.rpt
+*.smsg
+
+# Vivado/ISE project files
+*.jou
+*.str
+*.xpr
+*.xise
+*.cache/
+*.hw/
+*.ip_user_files/
+*.sim/
+*.runs/
+
+# Mac system files
+.DS_Store
+
+# VS Code
+.vscode/
+
+# Build output
+output_files/
+incremental_db/
+greybox_tmp/
+db/

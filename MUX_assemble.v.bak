@@ -1,0 +1,2 @@
+
+module MUX_assemble (iCLK, reset, R, G, B);

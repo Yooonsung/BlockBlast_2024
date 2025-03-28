@@ -1,0 +1,15 @@
+
+module Random (
+
+reg[15:0]random;
+wire feedback;
+
+assign feedback = random[15]^random[14]^random[12]^random[3];
+
+always @(posedge clkor negedgereset)
+begin
+	if (reset == 1’b0)
+		random <= 16’hffff;
+	else
+		random <= {random[14:0],feedback};
+end

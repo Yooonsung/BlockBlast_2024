@@ -1,0 +1,5 @@
+
+module block_set (iCLK, reset, out);
+
+wire iCLK, reset;
+reg out; 

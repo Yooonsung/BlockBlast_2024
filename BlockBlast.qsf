@@ -1,0 +1,111 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 2020  Intel Corporation. All rights reserved.
+# Your use of Intel Corporation's design tools, logic functions 
+# and other software and tools, and any partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Intel Program License 
+# Subscription Agreement, the Intel Quartus Prime License Agreement,
+# the Intel FPGA IP License Agreement, or other applicable license
+# agreement, including, without limitation, that your use is for
+# the sole purpose of programming logic devices manufactured by
+# Intel and sold by Intel or its authorized distributors.  Please
+# refer to the applicable agreement for further details, at
+# https://fpgasoftware.intel.com/eula.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus Prime
+# Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+# Date created = 20:44:04  November 14, 2024
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		BlockBlast_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus Prime software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "Cyclone IV E"
+set_global_assignment -name DEVICE EP4CE115F29C8
+set_global_assignment -name TOP_LEVEL_ENTITY BlockBlast
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 20.1.1
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "20:44:04  NOVEMBER 14, 2024"
+set_global_assignment -name LAST_QUARTUS_VERSION "20.1.1 Lite Edition"
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR 1
+set_global_assignment -name NOMINAL_CORE_SUPPLY_VOLTAGE 1.2V
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_location_assignment PIN_B10 -to B[0]
+set_location_assignment PIN_A10 -to B[1]
+set_location_assignment PIN_C11 -to B[2]
+set_location_assignment PIN_B11 -to B[3]
+set_location_assignment PIN_A11 -to B[4]
+set_location_assignment PIN_C12 -to B[5]
+set_location_assignment PIN_D11 -to B[6]
+set_location_assignment PIN_D12 -to B[7]
+set_location_assignment PIN_Y2 -to CLK
+set_location_assignment PIN_A12 -to CLKO
+set_location_assignment PIN_G8 -to G[0]
+set_location_assignment PIN_G11 -to G[1]
+set_location_assignment PIN_F8 -to G[2]
+set_location_assignment PIN_H12 -to G[3]
+set_location_assignment PIN_C8 -to G[4]
+set_location_assignment PIN_B8 -to G[5]
+set_location_assignment PIN_F10 -to G[6]
+set_location_assignment PIN_C9 -to G[7]
+set_location_assignment PIN_E12 -to R[0]
+set_location_assignment PIN_E11 -to R[1]
+set_location_assignment PIN_D10 -to R[2]
+set_location_assignment PIN_F12 -to R[3]
+set_location_assignment PIN_G10 -to R[4]
+set_location_assignment PIN_J12 -to R[5]
+set_location_assignment PIN_H8 -to R[6]
+set_location_assignment PIN_H10 -to R[7]
+set_location_assignment PIN_F11 -to blank_n
+set_location_assignment PIN_G13 -to hsync
+set_location_assignment PIN_C13 -to vsync
+set_location_assignment PIN_C10 -to sync_n
+set_location_assignment PIN_M23 -to reset
+set_location_assignment PIN_H5 -to ps2Dat
+set_location_assignment PIN_G6 -to ps2Clk
+set_location_assignment PIN_G19 -to led
+set_global_assignment -name VERILOG_FILE BlockBlast.v
+set_global_assignment -name QIP_FILE ClkGen.qip
+set_global_assignment -name VERILOG_FILE SigGen.v
+set_global_assignment -name VERILOG_FILE Random.v
+set_global_assignment -name VERILOG_FILE HVCNT.v
+set_global_assignment -name VERILOG_FILE block_choice.v
+set_global_assignment -name VERILOG_FILE block_set.v
+set_global_assignment -name QIP_FILE mif/block_single.qip
+set_global_assignment -name VERILOG_FILE RxKB.v
+set_global_assignment -name TEXT_FILE "D:/quartus/project.txt"
+set_global_assignment -name QIP_FILE number0.qip
+set_global_assignment -name QIP_FILE number1.qip
+set_global_assignment -name QIP_FILE number2.qip
+set_global_assignment -name QIP_FILE number3.qip
+set_global_assignment -name QIP_FILE number4.qip
+set_global_assignment -name QIP_FILE number5.qip
+set_global_assignment -name QIP_FILE number6.qip
+set_global_assignment -name QIP_FILE number7.qip
+set_global_assignment -name QIP_FILE number8.qip
+set_global_assignment -name QIP_FILE number9.qip
+set_global_assignment -name QIP_FILE score.qip
+set_global_assignment -name QIP_FILE dotdot.qip
+set_global_assignment -name VERILOG_FILE scoretime.v
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

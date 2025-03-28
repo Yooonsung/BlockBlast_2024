@@ -1,0 +1,18 @@
+
+module scoretime (iCLK, reset, HCNT, VCNT, R ,G, B);
+
+input iCLK, reset;
+input [11:0] HCNT;
+input [10:0] VCNT;
+output [7:0] R, G, B;
+
+reg [7:0] R, G, B;
+reg selp0;
+wire iCLK, reset;
+wire [11:0] HCNT;
+wire [10:0] VCNT;
+wire [11:0] hd_score, hd_number1, hd_number2, hd_number3, hd_number4;
+wire [10:0] vd_score, vd_number1, vd_number2, vd_number3, vd_number4;
+wire [11:0] block_addr;
+wire [1:0] block_q;
+wire [2:0] x,y;

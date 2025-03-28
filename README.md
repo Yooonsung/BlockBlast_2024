@@ -34,8 +34,61 @@ Block lines are cleared when a row or column is fully filled, which increases th
 | MIF (Memory Initialization Files)   | 숫자 표시 및 블록 표현에 사용되는 `.mif` 파일                         |
 | Row/Column Full Detection           | 메모리 배열로 줄이 채워졌는지 감지 후 자동 제거 처리                   |
 
-
 📘 See full architecture documentation: [architecture.md](doc/architecture.md)
 
+---
+
+## 🚀 Getting Started | 실행 방법
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Yooonsung/BlockBlast_2024.git
+   cd BlockBlast_2024
+   ```
+
+2. Open the project in **Intel Quartus Prime**.
+
+3. Compile the project and load it onto your FPGA board (if available).  
+   > Alternatively, simulate each Verilog module separately.
+
+4. Controls:
+   - Arrow keys: Move/rotate block
+   - `Enter`: Fix block
+   - `R`: Reset block queue
+
+> 본 프로젝트는 Quartus Prime 환경에서 개발되었으며, 시뮬레이션 또는 FPGA 보드를 통해 실행 가능합니다.
+
+---
+
+## 📁 Folder Structure | 폴더 구조
+
+```
+BlockBlast_2024/
+├── mif/               # 블록 및 빨간 영역 MIF 파일
+├── numbers/           # 숫자(0~9) 표시용 MIF 파일
+├── doc/               # 설계 문서 및 발표 자료
+├── *.v                # Verilog 소스코드
+├── *.qsf, *.qpf       # Quartus 프로젝트 파일
+├── README.md          # 프로젝트 설명 파일
+└── architecture.md    # 시스템 아키텍처 상세 설명
+```
+
+---
+
+## 📽️ Presentation Slides | 발표 자료
+
+You can view the final presentation slides for BlockBlast_2024 here:  
+👉 [Google Slides - BlockBlast_2024.pptx](https://docs.google.com/presentation/d/1kPK7CXwUDxbFqIboGk80agwpP8AwOG1m/edit?usp=drive_link&ouid=111513277059932010620&rtpof=true&sd=true)
+
+> 발표 자료는 Google Slides로 작성되었으며, BlockBlast_2024의 전체 구조와 기능을 시각적으로 설명합니다.
+
+---
+
+## 🛡️ License
+
+This project is released under the MIT License.  
+Feel free to use, modify, and distribute with proper attribution.
+
+> 본 프로젝트는 MIT 라이선스 하에 배포되며, 자유롭게 활용이 가능합니다.
 
 ---
